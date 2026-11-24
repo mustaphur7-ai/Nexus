@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#0b0f17" />
+  <title>Gold Options Structure</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <div>
+        <h1 id="title">GOLD OPTIONS STRUCTURE</h1>
+        <p id="meta" class="muted">Loading data/analysis.json...</p>
+      </div>
+      <div class="spot-box">
+        <span class="label">SPOT (SAME SOURCE)</span>
+        <strong id="spot-price">--</strong>
+        <span id="spot-change" class="muted">--</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Key Levels</h2>
+      <div id="levels-list" class="levels-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Expected Range &amp; Regime</h2>
+      <div id="regime-box" class="regime-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Net GEX by Strike</h2>
+      <div id="gex-list" class="gex-list"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

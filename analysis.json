@@ -1,0 +1,15 @@
+{
+  "generated_at": null,
+  "source": "cboe-delayed-options-GLD",
+  "spot": null,
+  "prev_close": null,
+  "change": null,
+  "change_pct": null,
+  "atm_iv": null,
+  "resistances": [],
+  "supports": [],
+  "gamma_flip": null,
+  "expected_range": null,
+  "gex_by_strike": [],
+  "bias": "NEUTRAL"
+}
